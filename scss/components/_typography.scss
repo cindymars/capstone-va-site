@@ -1,0 +1,44 @@
+@import '../custom';
+
+.display-2{
+    margin-bottom:1rem;
+
+    &--intro{
+        display:inline-block;
+        font-weight: 700;
+    }
+
+    &--description{
+        font-size: 1.5rem;
+        display:block;
+        margin-top: 1.2rem;
+        margin-bottom: 1.3rem;
+    }
+}
+
+// HEADING LINE
+.heading-line::before{
+    content:"";
+    width: 10rem;
+    height: 0.1rem;
+    display: block;
+    margin: 0 auto;
+    background-color: $primary;
+}
+
+.heading-line::after{
+    content:"";
+    width: 2rem;
+    padding-top:0.5rem;
+    height: 0.2rem;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    background-color: $primary;    
+}
+
+// BORDER RIGHT
+.border-right{
+    border-right: 0.1rem solid #5a5a5a;
+    height: 100%;
+}
