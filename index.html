@@ -12,8 +12,7 @@
 <body>
     <!-- NAVBAR SECTION -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
-        <div class="container-fluid">
-          
+        <div class="container-fluid"> 
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -66,32 +65,30 @@
       <!--ABOUT ME SECTION-->
       <section id="about" class="about">
         <div class="container">
-          <div class="row text-center my-5 pt-5">
+          <div class="row text-center mt-5 mb-3">
               <h3 class="display-3 fw-bold">About Me</h3>
               <div class="heading-line mb-5"></div>
           </div>
         </div>
         <!--ABOUT ME DESCRIPTION-->
         <div class="container">
-          <div class="row my-5 align">
-            <div class="col-md-6">
-              <img src="./images/pexels-vlada-karpovich-4668513.jpg" alt="profile image" class="img-fluid"> <!--Replace with image later-->
-            </div>
-            <div class="col-md-6">
-              <h3>How can a virtual assistant help your business?</h3>
-              <div class="row mb-5">
-                <p>Growing your business can be a challenge, especially when you need to deal with many repetitive or administrative tasks. A Virtual Assistant can do all that and more.</p>
-                <p>Virtual Assistants can offer a variety of services: copywriting and proofreading, admin and calendar management, graphic design, web maintenance, social media management, research, and more.</p>
-                <p>Hello, my name is Cindy Martinez. I have worked for over five years in sales operations, ensuring that the frontline sales teams are able to sell more efficiently and effectively. As such, I have experience launching and managing four major and three minor range change events at a large retailer by developing detailed planograms and implementing strategic product placement to act on business development initiatives, market trends, and changing availability of products, while promoting business commercial priorities and volume commitments.</p>
-                <p>This required a lot of knowledge in a variety of topics such as data analytics, visual merchandising, and project management. As your Virtual Assistant, I can leverage my prior experiences to assist your business with strategy, tech integration, and performance analytics.</p>
-                <p>Schedule a call with me to talk about your needs and we can review which monthly package would work best for your business' needs. </p>
-            </div>
-            <div class="row">
-              <a class="btn btn-secondary btn-lg col-4" href="#contact">Contact Me</a>
-            </div>
+          <div class="row row-cols-md-2">
+              <div class="col-md">
+                <img src="./images/pexels-vlada-karpovich-4668513.jpg" alt="profile image" class="img-fluid">
+              </div>
+              <div class="col-md">
+                <div class="aboutText mt-3">
+                  <h3>How can a virtual assistant help your business?</h3>
+                    <p>Growing your business can be a challenge, especially when you need to deal with many repetitive or administrative tasks. A Virtual Assistant can do all that and more.</p>
+                    <p>Virtual Assistants can offer a variety of services: copywriting and proofreading, admin and calendar management, graphic design, web maintenance, social media management, research, and more.</p>
+                    <p>Hello, my name is Cindy Martinez. I have worked for over five years in sales operations, ensuring that the frontline sales teams are able to sell more efficiently and effectively. As such, I have experience launching and managing four major and three minor range change events at a large retailer by developing detailed planograms and implementing strategic product placement to act on business development initiatives, market trends, and changing availability of products, while promoting business commercial priorities and volume commitments.</p>
+                    <p>This required a lot of knowledge in a variety of topics such as data analytics, visual merchandising, and project management. As your Virtual Assistant, I can leverage my prior experiences to assist your business with strategy, tech integration, and performance analytics.</p>
+                    <p>Schedule a call with me to talk about your needs and we can review which monthly package would work best for your business' needs. </p>
+                    <a class="btn btn-secondary btn-lg" href="#contact">Contact Me</a>
+                </div>
+              </div>
           </div>
         </div>
-      </div>
       </section>
       <!-- SERVICES SECTION -->
       <section id="services" class="services">
@@ -165,106 +162,72 @@
         </div>
         <!--TESTIMONIALS CAROUSEL SECTION-->
         <div class="container">
-          <div class="row mb-5 justify-content-center">
-            <div id="testimonialCarousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
-              <div class="carousel-inner" role="listbox">
-                <div class="carousel-item active">
-                  <div class="col-md-4">
-                    <div class="card m-3">
-                      <div class="card-body">
-                        <h3 class="card-subtitle">Sarah Smith</h3>
-                        <p class="card-text">I was able to launch my new jewelry line on time because of all the tasks that were able to be automated.</p>
-                      </div>
-                    </div>
+          <div id="testimonialsCarousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="3" class="active" aria-current="true" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            </div>
+            <div class="carousel-inner d-flex align-items-center text-center">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <div class="card mb-3s" style="min-height: 10rem;">
+                  <div class="card-body">
+                    <h3 class="card-subtitle">Caren Cramer</h3>
+                    <p class="card-text">I knew I wanted to add online ordering to my site, but didn't know how to do it. Cindy was able to get it set up and running.</p>
                   </div>
                 </div>
-                <div class="carousel-item">
-                  <div class="col-md-4">
-                    <div class="card m-3">
-                      <div class="card-body">
-                        <h3 class="card-subtitle">Caren Cramer</h3>
-                        <p class="card-text">I knew I wanted to add online ordering to my site, but didn't know how to do it. Cindy was able to get it set up and running.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="col-md-4">
-                    <div class="card m-3">
-                      <div class="card-body">
-                        <h3 class="card-subtitle">Jennifer Johnson</h3>
-                        <p class="card-text">I needed to reference another spreadsheet for a table I was creating but I could never remember how to do it. Cindy set it up and created a workflow we could reference in the future.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="col-md-4">
-                    <div class="card m-3">
-                      <div class="card-body">
-                        <h3 class="card-subtitle">Tessa Turner</h3>
-                        <p class="card-text">I was spending too much time on downloading and copying files to another folder. Cindy was able to set up an automation that did this automatically. Saved me a lot of time.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="col-md-4">
-                    <div class="card m-3">
-                      <div class="card-body">
-                        <h3 class="card-subtitle">Dora Dobbs</h3>
-                        <p class="card-text">I was able to finally get a scheduling calendar integrated to my site.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="col-md-4">
-                    <div class="card m-3">
-                      <div class="card-body">
-                        <h3 class="card-subtitle">Darla Davis</h3>
-                        <p class="card-text">I don't understand a lot of tech, but knew I needed it to run my business. Cindy set up a mini-webinar to run through the basics and even created a workflow to help me learn the most common processes that I needed to perform for my business. </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="col-md-4">
-                    <div class="card m-3">
-                      <div class="card-body">
-                        <h3 class="card-subtitle">Oliver Olmer</h3>
-                        <p class="card-text">Cindy set up scheduling for my social media updates for the next several weeks. I didn't have to lift a finger.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="col-md-4">
-                    <div class="card m-3">
-                      <div class="card-body">
-                        <h3 class="card-subtitle">Jerry Peralta</h3>
-                        <p class="card-text">I needed an app to simplify my life, but too many options overwhelmed me. Cindy did some comparison shopping </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="col-md-4">
-                    <div class="card m-3">
-                      <div class="card-body">
-                        <h3 class="card-subtitle">Jane Carlson</h3>
-                        <p class="card-text">Now that my apps are setup, I have everything I need to run my business. </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                </button>
               </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <div class="card mb-3s" style="min-height: 10rem;">
+                  <div class="card-body">
+                    <h3 class="card-subtitle">Jennifer Johnson</h3>
+                    <p class="card-text">I needed to reference another spreadsheet for a table I was creating but I could never remember how to do it. Cindy set it up and created a workflow we could reference in the future.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card mb-3s" style="min-height: 10rem;">
+                  <div class="card-body">
+                    <h3 class="card-subtitle">Tessa Turner</h3>
+                    <p class="card-text">I was spending too much time on downloading and copying files to another folder. Cindy was able to set up an automation that did this automatically. Saved me a lot of time.</p>
+                  </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card mb-3s" style="min-height: 10rem;">
+                <div class="card-body">
+                  <h3 class="card-subtitle">Dora Dobbs</h3>
+                  <p class="card-text">I was able to finally get a scheduling calendar integrated to my site.</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card mb-3s" style="min-height: 10rem;">
+                <div class="card-body">
+                  <h3 class="card-subtitle">Darla Davis</h3>
+                  <p class="card-text">I don't understand a lot of tech, but knew I needed it to run my business. Cindy set up a mini-webinar to run through the basics and even created a workflow to help me learn the most common processes that I needed to perform for my business. </p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card mb-3s" style="min-height: 10rem;">
+                <div class="card-body">
+                  <h3 class="card-subtitle">Oliver Olmer</h3>
+                  <p class="card-text">Cindy set up scheduling for my social media updates for the next several weeks. I didn't have to lift a finger.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialsCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonialsCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
             </div>
           </div>
         </div>
@@ -367,6 +330,7 @@
         </div>
       </footer>
     <script src="/node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="/node_modules/jquery/src/jquery.js"></script>
     <script src="/assets/js/script.js"></script>
 </body>
 </html>
